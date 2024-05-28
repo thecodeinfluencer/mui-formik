@@ -1,0 +1,39 @@
+{
+  "name": "mui-formik",
+  "version": "0.1.0",
+  "description": "A package that simplifies usage of Formik forms om @mui/material. I supports Yup!",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodeinfluencer/mui-formik.git"
+  },
+  "keywords": [
+    "mui",
+    "formik",
+    "yup",
+    "forms",
+    "frontend",
+    "html",
+    "css",
+    "react",
+    "nextjs"
+  ],
+  "author": "thecodeinfluencer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecodeinfluencer/mui-formik/issues"
+  },
+  "homepage": "https://github.com/thecodeinfluencer/mui-formik#readme",
+  "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.18",
+    "formik": "^2.4.6",
+    "react": "^18.3.1"
+  },
+  "publishConfig": {
+    "@thecodeinfluencer:registry": "https://npm.pkg.github.com"
+  }
+}
