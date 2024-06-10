@@ -6,7 +6,7 @@ import {
   RadioGroup,
 } from "@mui/material";
 import { useFormikContext } from "formik";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 type FormikRadioProps = {
   options: { value: string; label: string }[];

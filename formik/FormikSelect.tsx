@@ -1,6 +1,6 @@
 import { MenuItem, TextField } from "@mui/material";
 import { useFormikContext } from "formik";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 type FormikSelectProps = {
   data: any;
