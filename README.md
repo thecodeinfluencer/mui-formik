@@ -11,6 +11,16 @@ A package that simplifies usage of Formik forms om @mui/material. I supports Yup
 ### Basic usage
 
 ```javascript
+import {
+  FormikForm,
+  FormikInput,
+  FormikButton,
+} from "@thecodeinfluencer/mui-formik";
+```
+
+then
+
+```javascript
 <FormikForm
   initialValues={{ test: "" }}
   onSubmit={values => console.log(values)}
