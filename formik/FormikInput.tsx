@@ -15,7 +15,7 @@ export default function FormikInput({
   type,
   onSelectFiles,
   ...other
-}: FormikInputProps) {
+}: FormikInputProps): JSX.Element {
   const { errors, setFieldTouched, setFieldValue, touched, values } =
     useFormikContext<{ name: string }>();
 

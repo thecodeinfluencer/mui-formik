@@ -18,7 +18,7 @@ export default function FormikSelect({
   selectedItem,
   name,
   ...other
-}: FormikSelectProps) {
+}: FormikSelectProps): JSX.Element {
   const {
     errors,
     setFieldTouched,

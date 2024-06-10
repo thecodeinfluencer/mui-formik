@@ -14,7 +14,7 @@ export default function FormikForm({
   validationSchema,
   enterToSubmit,
   children,
-}: Readonly<FormikFormProps>) {
+}: Readonly<FormikFormProps>): JSX.Element {
   const handleKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === "Enter") {
       event.preventDefault();

@@ -19,7 +19,7 @@ export default function FormikRadio({
   name,
   label,
   ...other
-}: FormikRadioProps) {
+}: FormikRadioProps): JSX.Element {
   const { errors, setFieldTouched, touched, setFieldValue, values } =
     useFormikContext<{ [key: string]: string }>();
 

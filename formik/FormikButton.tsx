@@ -10,7 +10,7 @@ export default function FormikButton({
   children,
   disableIfDirty,
   ...other
-}: FormikButtonProps) {
+}: FormikButtonProps): JSX.Element {
   const formikContext = useFormikContext();
 
   return (
