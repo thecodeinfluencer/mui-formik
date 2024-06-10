@@ -1,9 +1,4 @@
 name: JSR Package
-
-# on:
-#   release:
-#     types: [created]
-
 on:
   push:
     branches:
@@ -19,10 +14,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 16
-      - run: npm ci
 
       - name: Publish package
         run: npx jsr publish
