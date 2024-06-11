@@ -1,5 +1,5 @@
 {
-  "name": "mui-formik",
+  "name": "@thecodeinfluencer/mui-formik",
   "version": "0.1.4",
   "description": "A package that simplifies usage of Formik forms om @mui/material. I supports Yup!",
   "main": "index.js",
