@@ -3,6 +3,7 @@
   "version": "0.1.4",
   "description": "A package that simplifies usage of Formik forms om @mui/material. I supports Yup!",
   "main": "index.js",
+  "author": "Mark Aloo <mbenjerminne@gmail.com> (https://github.com/thecodeinfluencer)",
   "scripts": {
     "test": "exit 0"
   },
@@ -21,7 +22,6 @@
     "react",
     "nextjs"
   ],
-  "author": "thecodeinfluencer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thecodeinfluencer/mui-formik/issues"
